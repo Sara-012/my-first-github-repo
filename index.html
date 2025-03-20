@@ -3,33 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img1.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles/blog.css">
     <title>my first github repo</title>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url('./flower.jpg');
+        }
+        h2{
+            text-align: center;
+        }
+        .s0{
+            border: 2px solid skyblue;
+            border-radius: 5px;
+        }
+        #div1{
+           color: black;
+           text-align:center;
+           background-color: white;
+           border: 16px solid rgb(250, 58, 176);
+           border-radius: 50px;
+           margin-bottom: 30px;
+           padding: 20px;
+           box-shadow: 10px 10px 70px pink;
+           /* width: 50%; */
+        }
+        #hi{
+            color: rgb(62, 2, 164);
+            text-align: center;
+        }
+        #div2{
+            color: black;
+            text-align:center;
+            /* background-color: white; */
+            border: 16px solid rgb(250, 58, 176);
+            border-radius: 50px;
+            margin: 10px 400px 10px;
+            padding: 20px;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.549);
+        }
+        .s1{
+            color:rgb(0, 200, 255);
+        }
+        #s2{
+            color: rgb(255, 192, 230);
+            font-size: 20px;
+        }
+        h6{
+            text-align: center;
+            color: rgba(0, 0, 0, 0.688);
+            font-size: 16px;
+            text-decoration: overline;
+        }
+        img{
+            border: 10px solid pink;
+            border-radius: 50px;
+            box-shadow: 10px 10px 70px;
+        }
+        input[type="email"]{
+            border-color: blue;
+            border-width: 10px;
+            border-radius: 25px;
+            font-size: 17px;
+        }
+        input[type="submit"]{
+            border-color: blue;
+            border-width: 10px;
+            border-radius: 25px;
+        }
+        input[type="password"]{
+            color: black;
+            border-color: blue;
+            border-width: 10px;
+            border-radius: 25px;
+            font-size: 17px;
+        }
+        input[type="text"]{
+            border-color: blue;
+            border-width: 10px;
+            border-radius: 25px;
+            font-size: 17px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-    <h3>My first website</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut a voluptates animi quasi ipsa reiciendis nihil autem amet libero repellendus quidem quisquam eius iure quae vero cum, pariatur ullam. Quae.</p>
+    <h2> This is my first test website </h2>
+    <p>Lorem, ipsum dolor sit <span class="s1">amet consectetur adipisicing elit.</span> Repellendus ratione quaerat in eius animi odit ipsa iusto aspernatur tempora, laborum quae <span  id="s2"><em><b> dolorum expedita </b></em></span> est velit nisi accusamus iste aliquam architecto explicabo. Distinctio ex itaque nemo sed neque a eum possimus libero? At aliquam ipsam quae! Sapiente illo esse, consequuntur ut, doloribus odit similique distinctio eligendi, qui repudiandae temporibus repellat minima!</p>
+    <p><span class="s0">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit.</p>
+    <h6> My picture {^.^}</h6>
+    <div id="div1">
+    <h4> This is my picture </h4>
+    <img src="photo.jpg" alt="my photo">
+    <h5>(^.^)</h5>
     </div>
-    <div>
-        <h3>My second blog</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut a voluptates animi quasi ipsa reiciendis nihil autem amet libero repellendus quidem quisquam eius iure quae vero cum, pariatur ullam. Quae.</p>
-    </div>
-    <div>
-        <h3>My third blog</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut a voluptates animi quasi ipsa reiciendis nihil autem amet libero repellendus quidem quisquam eius iure quae vero cum, pariatur ullam. Quae.</p>
-    </div>
-    <div>
-        <h3>How to push incremental code</h3>
-        <ul>
-            <li>git add .</li>
-            <li>git commit -m"add a meaningful commit message</li>
-            <li>git push</li>
-        </ul>
-    </div>
-    <div>
-        <h3>My photo</h3>
-        <img src="roseflower.jpg" alt="my photo">
-    </div>
+    <h4 id="hi">Simple Website(^-^)</h4>
+    <div id="div2">    <form>
+        <h3> please fill up the form</h3>
+        <input type="email" placeholder="Enter your email">
+        <br>
+        <br>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <br>
+        <input type="text" placeholder="leave a comment (^.^)">
+        <br>
+        <br>
+        <input type="submit" placeholder="click here">
+    </form>
+</div>
 </body>
 </html>
