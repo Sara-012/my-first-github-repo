@@ -11,6 +11,18 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             background-image: url('./flower.jpg');
         }
+        #div0{
+            text-align: right;
+        }
+        nav > ul > li{
+            display: inline;
+            margin-right: 40px;
+        }
+        nav li > a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
         h2{
             text-align: center;
         }
@@ -48,7 +60,7 @@
         iframe{
                 border: 10px solid pink;
                 border-radius: 60px;
-                box-shadow: 10px 10px 70px;
+                box-shadow: 10px 10px 90px;
             }
         p{
             color: rgba(0, 0, 0, 0.549);
@@ -101,6 +113,19 @@
     </style>
 </head>
 <body>
+    <div id="div0">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact us">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <main>
     <h2> This is my first test website </h2>
     <p>Lorem, ipsum dolor sit <span class="s1">amet consectetur adipisicing elit.</span> Repellendus ratione quaerat in eius animi odit ipsa iusto aspernatur tempora, laborum quae <span  id="s2"><em><b> dolorum expedita </b></em></span> est velit nisi accusamus iste aliquam architecto explicabo. Distinctio ex itaque nemo sed neque a eum possimus libero? At aliquam ipsam quae! Sapiente illo esse, consequuntur ut, doloribus odit similique distinctio eligendi, qui repudiandae temporibus repellat minima!</p>
     <p><span class="s0">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit.</p>
@@ -129,5 +154,6 @@
     <h3>This is a Simple video</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wrePKqD31Yw?si=GabjLqagxVfj1qKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+</main>
 </body>
 </html>
