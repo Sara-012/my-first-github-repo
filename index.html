@@ -8,116 +8,9 @@
     <title>my first github repo</title>
     <style>
         *{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url('./flower.jpg');
-        }
-        #div0{
-            text-align: right;
-        }
-        nav > ul > li{
-            display: inline;
-            margin-right: 40px;
-        }
-        nav li > a{
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-        }
-        nav li:hover{
-            background-color: lightgray;
-            border: 10px solid black;
-            border-radius: 10px;
-        }
-        h2{
-            text-align: center;
-        }
-        .s0{
-            border: 2px solid skyblue;
-            border-radius: 5px;
-        }
-        #div1{
-           color: black;
-           text-align:center;
-           background-color: white;
-           border: 16px solid rgb(250, 58, 176);
-           border-radius: 50px;
-           margin-bottom: 30px;
-           padding: 20px;
-           box-shadow: 10px 10px 70px pink;
-           /* width: 50%; */
-        }
-        #h20{
-            color: rgb(0, 106, 255);
-        }
-        #hi{
-            color: rgb(62, 2, 164);
-            text-align: center;
-        }
-        #div2{
-            color: black;
-            text-align:center;
-            /* background-color: white; */
-            border: 16px solid rgb(250, 58, 176);
-            border-radius: 50px;
-            margin: 10px 400px 10px;
-            padding: 20px;
-        }
-        #div3{
-            text-align: center;
-        }
-        iframe{
-                border: 10px solid pink;
-                border-radius: 60px;
-                box-shadow: 10px 10px 90px;
-            }
-        p{
-            color: rgba(0, 0, 0, 0.549);
-        }
-        .s1{
-            color:rgb(0, 200, 255);
-        }
-        #s2{
-            color: rgb(255, 192, 230);
-            font-size: 20px;
-        }
-        h6{
-            text-align: center;
-            color: rgba(0, 0, 0, 0.688);
-            font-size: 16px;
-            text-decoration: overline;
-        }
-        img{
-            border: 10px solid pink;
-            border-radius: 50px;
-            box-shadow: 10px 10px 70px;
-        }
-        input[type="email"]{
-            border-color: blue;
-            border-width: 10px;
-            border-radius: 25px;
-            font-size: 17px;
-        }
-        input[type="submit"]{
-            border-color: blue;
-            border-width: 10px;
-            border-radius: 25px;
-        }
-        input[type="password"]{
-            color: black;
-            border-color: blue;
-            border-width: 10px;
-            border-radius: 25px;
-            font-size: 17px;
-        }
-        input[type="text"]{
-            border-color: blue;
-            border-width: 10px;
-            border-radius: 25px;
-            font-size: 17px;
-        }
-        iframe{
-            margin-right: 50px;
-        }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('./flower.jpg');
+    }
     </style>
 </head>
 <body>
@@ -137,7 +30,13 @@
     <h2> This is my first test website </h2>
     <p>Lorem, ipsum dolor sit <span class="s1">amet consectetur adipisicing elit.</span> Repellendus ratione quaerat in eius animi odit ipsa iusto aspernatur tempora, laborum quae <span  id="s2"><em><b> dolorum expedita </b></em></span> est velit nisi accusamus iste aliquam architecto explicabo. Distinctio ex itaque nemo sed neque a eum possimus libero? At aliquam ipsam quae! Sapiente illo esse, consequuntur ut, doloribus odit similique distinctio eligendi, qui repudiandae temporibus repellat minima!</p>
     <p><span class="s0">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit.</p>
-    <p>The chemical mormula of water is <span id="h20"> <strong>H<sub>2</sub>O</strong> </span></p>
+    <p>The chemical mormula of water is <span id="h20"> <strong>h<sub>2</sub>O</strong> </span></p>
+    <p>The equation of <span class="eq2"> <strong> ( a+b )<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup> </strong> </span>
+        <br>
+       The equation of <span class="eq2"> <strong> ( a-b )<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup> </strong> </span> 
+        <br>
+       The equation of <span class="eq2"> <strong> a<sup>2</sup> - b<sup>2</sup> = ( a+b ) ( a-b )</strong> </span>
+    </p>
     <h6> My picture {^.^}</h6>
     <div id="div1">
     <h4> This is my picture </h4>
@@ -162,6 +61,13 @@
 <div id="div3">
     <h3>This is a Simple video</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wrePKqD31Yw?si=GabjLqagxVfj1qKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2 id="imp head 1">My other pictures ( ^.^ )</h2>
+    <section id="parent">
+        <div class="child"><img src="images/pic1.JPG" alt=""></div>
+        <div class="child"><img src="images/pic3.JPG" alt=""></div>
+        <div class="child"><img src="images/pic2.JPG" alt=""></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, corrupti! Harum dolorem recusandae tempore, nulla non laboriosam enim optio nostrum earum voluptates aliquam cupiditate necessitatibus quam, molestias dicta sequi iure eveniet vel! Numquam recusandae temporibus voluptates autem ratione ad omnis, sit possimus eaque accusantium, necessitatibus adipisci consequuntur libero atque optio!</p>
+    </section>
 </div>
 </main>
 </body>
